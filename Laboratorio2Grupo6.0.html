@@ -1,98 +1,146 @@
 <!DOCTYPE html>
-
 <html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículum Devyn</title>
+    <link rel="stylesheet" href="estilosLaboratorio.css">
+    <link rel="shortcut icon" href="recursos/iconGrupo .jpg">
+    
+    <title>Currículum Ramiro</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #004aad;
+            color: white;
+            padding: 20px 0;
+            position: relative;
+        }
+
+        header h1 {
+            margin: 0;
+            padding: 20px;
+            padding-left: 200px;
+            font-size: 2.5em;
+        }
+
+        header nav {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .content {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
+            margin-top: 20px;
         }
 
         th,
         td {
-            padding: 10px;
+            padding: 15px;
             text-align: left;
             border-bottom: 1px solid #056aee;
         }
 
         th {
-            background-color: #0184ff41;
+            background-color: #004aad;
+            color: white;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
         }
     </style>
 </head>
 
 <body>
-    <font color="blue">
+    <header>
         <h1>Currículum Vitae</h1>
-    </font>
-    <table>
-        <tr>
-            <th colspan="2">Información Personal</th>
-        </tr>
-        <tr>
-            <td>Nombre: Ramiro Donovan Morales </td>
-            <td>Fecha de Nacimiento: 27 de Diciembre de 2006</td>
-        </tr>
-        <tr>
-            <td>Dirección: 9 Calle 13-76 Zona 7</td>
-            <td>Edad: 17 Años</td>
-        </tr>
-        <tr>
-            <td>Teléfono: 53276000</td>
+        <nav>
+            <img src="recursos/fotoCv.jpg" alt="Foto" style="height: 100px; width: auto;">
+        </nav>
+    </header>
+    <div class="content">
+        <table>
 
-            <td>Profesión: Programador</td>
-        </tr>
-        <tr>
-            <td>Email: rmorales215327@gmail.com</td>
-            <td>Idiomas: Castellano e Ingles</td>
-        </tr>
-        <tr>
-            <th colspan="2">Experiencia Laboral</th>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <strong>Mecanico</strong><br>
-                <em>GEMTCO</em><br>
-                <span>Fecha de Inicio: 31 de Octubre 2020 - Fecha de Fin: 31 de Diciembre 2020 </span><br>
-            </td>
-        </tr>
-        <tr>
-            <th colspan="2">Educación</th>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <strong><em>Escuela 25 de Septiempre</em><br></strong>
-                <span>Enero 2014 - Octubre 2019</span><br>
-                Primaria
-                <br>
-                <strong><em>Centro Educativo Tecnico Laboral Kinal</em><br></strong>
-                <span>Enero 2020 - Cursando Actualmente</span><br>
-                Basicos y Diversificado
-            </td>
-        </tr>
-        <tr>
-            <th colspan="2">Habilidades</th>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <ul>
-                    <li>Lenguaje de Programación Java</li>
-                    <li>Lenguaje de Programación Python</li>
-                    <li>Lenguaje de Programación JavaScript</li>
-                    <li>Lenguaje de Programación HTML</li>
-                    <li>Manejo de Bases de Datos MySQL</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
+            <tr>
+                <th colspan="2">Información Personal</th>
+            </tr>
+
+            <tr>
+                <td>Nombre: Ramiro Donovan Morales</td>
+                <td>Fecha de Nacimiento: 27 de Diciembre de 2006</td>
+            </tr>
+            
+            <tr>
+                <td>Dirección: 9 Calle 13-76 Zona 7</td>
+                <td>Edad: 17 Años</td>
+            </tr>
+            <tr>
+                <td>Teléfono: 53276000</td>
+                <td>Profesión: Programador</td>
+            </tr>
+            <tr>
+                <td>Email: rmorales215327@gmail.com</td>
+                <td>Idiomas: Castellano e Inglés</td>
+            </tr>
+            <tr>
+                <th colspan="2">Experiencia Laboral</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <strong>Mecánico</strong><br>
+                    <em>GEMTCO</em><br>
+                    <span>Fecha de Inicio: 31 de Octubre 2020 - Fecha de Fin: 31 de Diciembre 2020 </span><br>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">Educación</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <strong><em>Escuela 25 de Septiembre</em><br></strong>
+                    <span>Enero 2014 - Octubre 2019</span><br>
+                    Primaria
+                    <br>
+                    <strong><em>Centro Educativo Técnico Laboral Kinal</em><br></strong>
+                    <span>Enero 2020 - Cursando Actualmente</span><br>
+                    Básicos y Diversificado
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">Habilidades</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <ul>
+                        <li>Lenguaje de Programación Java</li>
+                        <li>Lenguaje de Programación Python</li>
+                        <li>Lenguaje de Programación JavaScript</li>
+                        <li>Lenguaje de Programación HTML</li>
+                        <li>Manejo de Bases de Datos MySQL</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
 
 </html>
